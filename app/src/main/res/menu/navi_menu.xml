@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_about"
+            android:title="ABOUT" />
+        <item
+            android:id="@+id/item_product"
+            android:title="PRODUCT" />
+        <item
+            android:id="@+id/item_contact"
+            android:title="CONTACT" />
+        </group>
+
+    <item android:title="회원정보">
+        <menu>
+            <item
+                android:id="@+id/per_info"
+                android:title="INFORMATION"/>
+            <item
+                android:id="@+id/per_basket"
+                android:title="SHOPPING BASKET"/>
+        </menu>
+    </item>
+
+
+</menu>
